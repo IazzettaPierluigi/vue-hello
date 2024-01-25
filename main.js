@@ -6,7 +6,9 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: 'Non voglio più vedere JS plain'
+            message: 'Non voglio più vedere JS plain',
+
+            image : 'icegif-384.gif'
         }
     }
 }).mount('#app')
